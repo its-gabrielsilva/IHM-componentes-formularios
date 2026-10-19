@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "disciplina": "M03 - Cálculo Aplicado à Engenharia 1",
+    "data": "ter",
+    "horario": "10:00",
+    "local": "P1-S10",
+    "prova_alert": false,
+    "prova": "27/10",
+    "frequencia": "8/20",
+    "nota": "7"
+  },
+  {
+    "id": 2,
+    "disciplina": "S01 - Paradigmas da Programação",
+    "data": "ter",
+    "horario": "15:30",
+    "local": "P1-S15",
+    "prova_alert": true,
+    "prova": "20/10",
+    "frequencia": "6/20",
+    "nota": "5"
+  },
+  {
+    "id": 3,
+    "disciplina": "S05 - Interação Homem-máquina",
+    "data": "ter",
+    "horario": "17:30",
+    "local": "P1-S12",
+    "prova_alert": true,
+    "prova": "20/10",
+    "frequencia": "8/20",
+    "nota": "9"
+  },
+  {
+    "id": 4,
+    "disciplina": "E10 - Desenho",
+    "data": "seg",
+    "horario": "19:30",
+    "local": "P1-S18",
+    "prova_alert": false,
+    "prova": "28/10",
+    "frequencia": "2/5",
+    "nota": "7"
+  }
+]

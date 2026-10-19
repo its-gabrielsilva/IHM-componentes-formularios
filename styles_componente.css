@@ -1,0 +1,74 @@
+:host {
+  display: block;
+  --frequencia: #126ae2;
+  --nota: #126ae2;
+  --prova: #126ae2;
+}
+
+/* O shadow DOM não herda o box-sizing da página; sem isso o padding estoura a largura */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.comp-aula {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  padding: 16px;
+  margin-bottom: 16px;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #1f2933;
+}
+
+.titulo_aula {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.p {
+  font-size: 13px;
+  padding: 0 5px;
+  margin: 12px 0;
+}
+
+.lables {
+  display: flex;
+}
+
+.lable-prova,
+.lable-frequencia,
+.lable-nota {
+  background-color: var(--prova, #126ae2);
+  padding: 7px 15px;
+  margin-bottom: 10px;
+  border-radius: 500px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/* Faixa da prova ocupa a largura toda do cartão */
+.lable-prova {
+  margin-right: 0;
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+.lable-frequencia {
+  background-color: var(--frequencia, #126ae2);
+}
+
+.lable-nota {
+  background-color: var(--nota, #126ae2);
+}
+
+.p_lable {
+  font-size: 13px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
