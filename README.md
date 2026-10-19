@@ -39,7 +39,7 @@ exercicio-aulas/
 - **Consumo de JSON** com `fetch` e `async/await`
 - **Estilização condicional** (faixa de prova e cor do CR)
 
-## Autor: 
+## Autor
 
 Gabriel Silva Lopes
 
