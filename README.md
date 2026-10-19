@@ -2,8 +2,6 @@
 
 Projeto do módulo **Componentes e Formulários**: um Web Component personalizado que exibe dinamicamente as informações das aulas do dia a partir de um arquivo JSON, dentro de uma página inspirada no aplicativo do Inatel.
 
-**Autor:** Gabriel Silva Lopes
-
 ## O que o projeto faz
 
 - Carrega as aulas do arquivo `aulas.json` com `fetch`.
@@ -41,8 +39,8 @@ exercicio-aulas/
 - **Consumo de JSON** com `fetch` e `async/await`
 - **Estilização condicional** (faixa de prova e cor do CR)
 
+**Autor:** Gabriel Silva Lopes
+
 ## Licença
 
 Trabalho acadêmico desenvolvido para fins educacionais.
-Trabalho acadêmico desenvolvido para fins educacionais.
-
